@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "btc",
+  "password": "btc_price_password",
+  "database": "btc_price_db",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
